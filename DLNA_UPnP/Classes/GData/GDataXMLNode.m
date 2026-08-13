@@ -1697,7 +1697,7 @@ static xmlChar *SplitQNameReverse(const xmlChar *qname, xmlChar **prefix) {
       CFRelease(xmlDoc_->_private);
     }
 
-    xmlFreeDoc(xmlDoc_);
+    // xmlFreeDoc(xmlDoc_);
   }
   [super dealloc];
 }
